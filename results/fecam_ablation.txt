@@ -1,0 +1,10 @@
+FeCAM Covariance-Model Ablation on Split-MNIST
+========================================================================
+
+Accuracy (%) after each experience and averaged across experiences
+
+cov_type         (0,1)     (2,3)     (4,5)     (6,7)     (8,9)      Mean
+------------------------------------------------------------------------
+identity         84.96     70.46     64.15     55.69     51.45     65.34
+diagonal         90.64     65.86     58.30     55.77     51.49     64.41
+full             95.70     79.31     72.46     73.23     70.26     78.19

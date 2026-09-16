@@ -16,7 +16,6 @@ MNIST classes are introduced sequentially as `(0,1)`, `(2,3)`, `(4,5)`, `(6,7)`,
 │   └── cl-notebook.ipynb   # Original analysis notebook
 ├── figures/                # Saved figures from the supplied experiment run
 ├── results/                # Saved accuracy reports from the supplied experiment run
-├── presentation.pptx       # Project presentation
 ├── requirements.txt
 └── .gitignore
 ```

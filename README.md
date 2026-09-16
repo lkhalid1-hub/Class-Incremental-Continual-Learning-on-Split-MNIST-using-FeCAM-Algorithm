@@ -85,18 +85,6 @@ Running `run_experiment.py` produces:
 
 The committed `figures/` and `results/` directories contain the artifacts from the supplied original run. Its reported average accuracies are 78.19% for FeCAM, 97.24% for ER with a 500-sample buffer, and 91.52% for ER with a 100-sample buffer. Exact rerun results may differ by platform and PyTorch version.
 
-## Push to GitHub
-
-Create an empty GitHub repository first, then run these commands from this project folder:
-
-```powershell
-git init
-git add .
-git commit -m "Initial commit: Split-MNIST continual learning comparison"
-git branch -M main
-git remote add origin <YOUR-REPOSITORY-URL>
-git push -u origin main
-```
 
 ## Reference
 
